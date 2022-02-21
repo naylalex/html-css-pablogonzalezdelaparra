@@ -1,0 +1,47 @@
+/* LAB: Agrega una regla para que el color de los encabezados h1 sea rojo. */
+h1 {
+    color: red;
+}
+/* LAB: Agrega una regla para que el color de los párrafos sea verde. */
+/* LAB: Actualiza la regla para que también el color de los elementos de las listas sea verde. */
+p, li {
+    color: green;
+}
+/* LAB: Elimina los estilos de los elementos de las listas. */
+/* LAB: Modifica el estilo de las viñetas de los elementos de las listas para que sean cuadrados. */
+li {
+    list-style-type: square;
+}
+/* LAB: 
+    Crea un selector que comience con el caracter "full stop." 
+    Añade una regla para que el color sea orange.
+    Añade una regla para que el peso de la fuente sea bold.
+*/
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+/* LAB: Añade una regla de tipo descendant combinator para elementos em contenidos en li. */
+li em {
+    color: rebeccapurple;
+    font-weight: bold;
+}
+/* LAB: Añade un selector de tipo adjacent sibling combinator para h1 con p. */
+h1 + p {
+    font-size: 200%;
+}
+
+/* LAB: Añade un estilo para que un span dentro de un párrafo sea de color rojo. */
+p span {
+    color: red; 
+}
+
+/* LAB: Añade un estilo para que los enlaces no visitados sean color rosa. */
+a:link {
+    color: pink;
+}
+/* LAB: Añade un estilo para que los enlaces visitados sean color verde. */
+a:visited {
+    color: green;
+}
